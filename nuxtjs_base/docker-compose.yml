@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  frontend:
+    build: .
+    container_name: nuxtjs_base
+    command: npm run dev
+    restart: always
+    ports:
+      - "3388:3000"
