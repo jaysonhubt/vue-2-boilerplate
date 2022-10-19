@@ -1,13 +1,13 @@
 # base_vuejs
 
-## Project setup
+## Build Project
 ```
-npm install
+docker-compose build
 ```
 
-### Compiles and hot-reloads for development
+### Start docker container & Compiles and hot-reloads for development
 ```
-npm run serve
+docker-compose up -d
 ```
 
 ### Compiles and minifies for production
